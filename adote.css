@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+#F8667F
+#0EA6AB
+*/
+
+.ghost {
+    width: 100%;
+    height: 50px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+}
+
+.container {
+    background-color: #E9657E;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+
+
+.link a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+
+
+.link {
+    font-family: 'Archivo', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #0EA6AB;
+    flex-grow: 1;
+}
+
+.link a:hover{
+    text-decoration: underline;
+    color: #E9657E;
+    transition: 0.3s;
+}
+
+.logo  {
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    flex-grow: 2;
+}
+/*fim do header*/
+
+/*Main começa aqui*/
+.banner {
+    display: flex;
+    height: 527px;
+    width: 100%;
+    
+}
+.banner > img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 527px;
+    object-fit: cover;
+    
+}
+
+.formulario-conatiner { 
+    height: 500px;
+}
+
+.formulario {
+    position: relative;
+    background-color: #8a858575;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 200px;
+    height: 527px;
+
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.452);
+    
+
+}
+
+.formulario > h2 {
+    
+    text-align: center;
+}
+
+.botao { 
+    width: 10rem;
+    padding: 5px;
+}
+
+.galeria { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 450px;
+}
+
+
+.unidades {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 10px;
+    height: 85vh;
+    margin:  10px auto;
+    text-align: center;
+
+}
+
+.unidade-container { 
+    width: 100%;
+    height: 450px;
+    margin: auto;
+}
+
+.center { 
+    font-family: 'Archivo', sans-serif;
+   
+    background-color: #E9657E;
+    text-align: center;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.384);
+    padding: 10px;
+}
+
+.h2galeria {
+    background-color: chocolate;
+}
+
+
+.galeria {
+    background-color: #0EA6AB;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.521);
+  
+   
+}
+
+.galeria-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+    gap: 20px;
+    
+
+    height: 100vh;
+    width: 100%;
+    
+    
+
+}
+
+
+
+.img-galeria {
+    display: flex;
+
+    border-radius: 3%;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.541);
+    
+    height: 40%;
+    width: 30%;
+}
+
+footer {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 25px;
+    height: 100px;
+    width: 100%;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.479);
+}
+
+footer a {
+    color: #E9657E;
+    text-decoration: none;
+    font-size: bold;
+}
+
+footer a:hover {
+    color: #b5b5c0;
+}
